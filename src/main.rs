@@ -8,5 +8,5 @@ fn main() {
     let end_time = std::time::Instant::now();
 
     let diff = end_time - start_time;
-    println!("It took {:?}", diff);
+    println!("{:?}", diff);
 }
